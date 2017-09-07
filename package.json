@@ -1,11 +1,12 @@
 {
-  "name": "cli",
-  "version": "1.0.0",
+  "name": "node-cli-mars",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "preferGlobal": true,
   "bin": {
     "bintest": "index.js"
   },
@@ -13,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/marsqinht/node-cli.git"
   },
-  "author": "",
+  "author": "qinhaitao",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/marsqinht/node-cli/issues"
